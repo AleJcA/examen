@@ -19,7 +19,7 @@ export default function page() {
       <div className="w-full max-w-md backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl shadow-2xl p-10 transition-all duration-500 hover:scale-[1.01]">
         
         <h1 className="text-3xl font-semibold text-white text-center mb-8 tracking-tight">
-          Establecer gastos
+          Establecer Presupuesto
         </h1>
 
         <form action="" className="space-y-6">
@@ -30,7 +30,7 @@ export default function page() {
               presupuesto
             </label>
             <input
-              type="text"
+              type="number"
               
               placeholder="Ingresa tu presupuesto mensual"
               className="w-full px-4 py-3 rounded-xl bg-white/10 text-white placeholder-gray-500 border border-white/10 focus:outline-none focus:ring-2 focus:ring-white/30 focus:border-white/30 transition-all duration-300"

@@ -8,12 +8,8 @@ export default function ProviderGasto(props: Plantilla) {
 
     const [gastos, setGastos] = useState<Gasto[]>([]);
 
-
-
-
-
     async function obtenerGastos() {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/evento`)
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}gasto`)
         const data = await response.json()
         setGastos(data)
     }
